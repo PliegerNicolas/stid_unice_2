@@ -5,8 +5,10 @@
 
 .formation-section-enseignements-dispenses {
 	margin-bottom: 100px;
+	text-align: center;
 	p {
 		width: 80%;
+		margin: auto;
 	}
 	h2 {
 		font-size: 1.5em;
@@ -33,5 +35,15 @@
 
 	li {
 		margin-bottom: 8px;
+	}
+}
+
+.formation-section-terre-mer, .formation-section-debouches {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	h1 {
+		margin-bottom: 20px;
 	}
 }
