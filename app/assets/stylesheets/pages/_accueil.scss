@@ -8,3 +8,39 @@
 .logo {
 	margin: 0 20px 0 20px;
 }
+
+.accueil-intro {
+	margin: 60px 0 60px 0;
+	@include flex-direction(column);
+	@include flex-full-center;
+
+	h3 {
+		font-size: 3em;
+	}
+
+	p {
+		font-size: 1.2em;
+		opacity: 0.85;
+	}
+}
+
+// Dashboard image
+
+.dashboard {
+	margin-top: 50px;
+}
+
+.first-floor {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.second-floor {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	top: -205px;
+	left: -5px;
+}
