@@ -3,6 +3,14 @@ footer {
 	flex-direction: column;
 	justify-content: space-around;
 	height: 300px;
+	a {
+		margin: 0 15px 0 15px;
+		transition: 0.1s;
+		&:hover i {
+			color: $blue-stid;
+			transition: 0.1s; 
+		}
+	}
 }
 
 .footer-coordinates-details {
@@ -18,4 +26,11 @@ footer {
 		margin-left: .08em;
 	}
 
+}
+
+.footer-social-networks {
+	@include flex-full-center;
+	a {
+		font-size: 1.8em;
+	}
 }
