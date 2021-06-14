@@ -9,7 +9,7 @@ body {
 	background-color: $dark-black;
 }
 
-:is(p, a, h1, h2, h3, h4, h5, h6){
+:is(p, a, h1, h2, h3, h4, h5, h6, i){
 	padding: 0;
 	margin: 0;
 	color: $white;
@@ -20,6 +20,12 @@ a {
 	transition: 0.1s;
 	&:hover {
 		color: $blue-stid;
+		text-decoration: none;
 		transition: 0.1s;
 	}
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
 }

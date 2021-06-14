@@ -1,0 +1,10 @@
+footer {
+	@include flex-full-center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+}
+
+.footer-coordinates-details {
+	@include flex-direction(row);
+}
