@@ -1,1 +1,15 @@
-_mixins.scss
+@mixin font-size($size) {
+    font-size:$size;
+ 	font-size: ($size / 16px) * 1rem;
+ }
+
+@mixin flex-direction($direction) {
+		display: flex;
+		flex-direction: $direction;
+}
+
+@mixin flex-full-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
