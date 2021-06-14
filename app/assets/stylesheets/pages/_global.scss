@@ -42,3 +42,9 @@ p, li {
 	font-size: 1.2em;
 	opacity: 0.85;
 }
+
+main {
+	@include flex-direction(column);
+	margin: auto;
+	max-width: 70%;
+}
