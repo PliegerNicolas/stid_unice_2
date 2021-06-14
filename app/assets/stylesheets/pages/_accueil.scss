@@ -13,15 +13,6 @@
 	margin: 80px 0 80px 0;
 	@include flex-direction(column);
 	@include flex-full-center;
-
-	h3 {
-		font-size: 3em;
-	}
-
-	p {
-		font-size: 1.2em;
-		opacity: 0.85;
-	}
 }
 
 // Dashboard image
