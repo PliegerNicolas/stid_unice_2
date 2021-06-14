@@ -7,4 +7,15 @@ footer {
 
 .footer-coordinates-details {
 	@include flex-direction(row);
+	align-items: center;
+	margin: 0.8em 0 0.8em 0;
+	.fas {
+		font-size: 1.5em;
+		margin-right: 15px;
+	}
+
+	.fa-mobile-alt {
+		margin-left: .08em;
+	}
+
 }
